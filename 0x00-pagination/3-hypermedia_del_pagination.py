@@ -57,7 +57,7 @@ class Server:
             if data_value == page_size:
                 next_index = i
                 break
-            page_info + {
+            page_info = {
                     'index': index,
                     'next_index': next_index,
                     'page_size': len(page_data),
